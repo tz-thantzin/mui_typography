@@ -1,0 +1,20 @@
+name: mui_typography
+description: "A Flutter package providing typography features similar to React MUI Typography."
+version: 0.0.1
+homepage: https://github.com/tz-thantzin/typography
+repository: https://github.com/tz-thantzin/typography
+issue_tracker: https://github.com/tz-thantzin/typography/issues
+maintainer: ThantZin (@tz-thantzin)
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
