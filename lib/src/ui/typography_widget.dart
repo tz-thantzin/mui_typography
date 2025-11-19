@@ -53,32 +53,252 @@ class MuiTypography extends StatelessWidget {
          paragraph: paragraph,
        );
 
-  const MuiTypography.h1(String text, {Key? key})
-    : this._(text: text, variant: .h1, key: key);
-  const MuiTypography.h2(String text, {Key? key})
-    : this._(text: text, variant: .h2, key: key);
-  const MuiTypography.h3(String text, {Key? key})
-    : this._(text: text, variant: .h3, key: key);
-  const MuiTypography.h4(String text, {Key? key})
-    : this._(text: text, variant: .h4, key: key);
-  const MuiTypography.h5(String text, {Key? key})
-    : this._(text: text, variant: .h5, key: key);
-  const MuiTypography.h6(String text, {Key? key})
-    : this._(text: text, variant: .h6, key: key);
-  const MuiTypography.subtitle1(String text, {Key? key})
-    : this._(text: text, variant: .subtitle1, key: key);
-  const MuiTypography.subtitle2(String text, {Key? key})
-    : this._(text: text, variant: .subtitle2, key: key);
-  const MuiTypography.body1(String text, {Key? key})
-    : this._(text: text, variant: .body1, key: key);
-  const MuiTypography.body2(String text, {Key? key})
-    : this._(text: text, variant: .body2, key: key);
-  const MuiTypography.button(String text, {Key? key})
-    : this._(text: text, variant: .button, key: key);
-  const MuiTypography.caption(String text, {Key? key})
-    : this._(text: text, variant: .caption, key: key);
-  const MuiTypography.overline(String text, {Key? key})
-    : this._(text: text, variant: .overline, key: key);
+  const MuiTypography.h1(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.h1,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.h2(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.h2,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.h3(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.h3,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.h4(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.h4,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.h5(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.h5,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.h6(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.h6,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.subtitle1(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.subtitle1,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.subtitle2(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.subtitle2,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.body1(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.body1,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.body2(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.body2,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.button(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.button,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.caption(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.caption,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
+
+  const MuiTypography.overline(
+    String text, {
+    Key? key,
+    Color? color,
+    TextAlign? align,
+    bool gutterBottom = false,
+    bool noWrap = false,
+    bool paragraph = false,
+  }) : this._(
+         text: text,
+         variant: Variant.overline,
+         key: key,
+         color: color,
+         align: align,
+         gutterBottom: gutterBottom,
+         noWrap: noWrap,
+         paragraph: paragraph,
+       );
 
   TextStyle _getStyle(BuildContext context) {
     return switch (variant) {
