@@ -7,6 +7,7 @@ A **beautiful, fluent, MUI-inspired typography package** for Flutter — with th
 
 ---
 <img src="display/typography_demo.png" alt="Mui Typography Demo" width="400" />
+
 ---
 
 ## ✨ Features
