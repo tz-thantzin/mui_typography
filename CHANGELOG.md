@@ -13,3 +13,6 @@
 
 ## 0.0.3
 - Modify min dart sdk 3.9 to 3.0
+
+## 0.0.4
+- Update Readme.md content of installation

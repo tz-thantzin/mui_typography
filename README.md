@@ -21,13 +21,11 @@ A **beautiful, fluent, MUI-inspired typography package** for Flutter — with th
 
 ---
 ## 🛠️ Installation
-
-Add to pubspec.yaml:
-
+ 
+```bash
+$ flutter pub add mui_typography
 ```
-dependencies:
-  mui_typography: ^0.0.1
-```
+
 ---
 
 ## 🚀 Usage
