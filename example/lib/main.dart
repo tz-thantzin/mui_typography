@@ -68,6 +68,12 @@ class TypographyDemoScreen extends StatelessWidget {
               gutterBottom: true,
             ),
 
+            MuiTypography.h1(
+              "Big Title",
+              color: Colors.red,
+              gutterBottom: true,
+            ),
+
             // 🔥 with .call() extension
             "Using call() extension for inline parameters"(
               variant: Variant.h6,

@@ -7,3 +7,6 @@
     etc.)\
 -   Added `gutterBottom`, `noWrap`, and `paragraph` features\
 -   Supports custom colors and TextTheme fallback
+
+## 0.0.2
+- Bug Fixing

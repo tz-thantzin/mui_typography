@@ -1,4 +1,4 @@
-# mui_typography 📦✨
+#  📦 mui_typography
 [![pub package](https://img.shields.io/pub/v/mui_typography.svg)](https://pub.dev/packages/mui_typography) &nbsp;
 [![GitHub license](https://img.shields.io/github/license/tz-thantzin/mui_typography)](https://github.com/tz-thantzin/mui_typography/blob/main/LICENSE) &nbsp;
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-yellow.svg)](https://buymeacoffee.com/devthantziq)
@@ -41,6 +41,12 @@ const MuiTypography(
   variant: Variant.h5,
   gutterBottom: true,
 ), 
+
+MuiTypography.h1(
+  "Big Title",
+  color: Colors.red,
+  gutterBottom: true,
+),
 
 // Classic variants
 "Display Large".h1
