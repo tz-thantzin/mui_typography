@@ -25,7 +25,7 @@ class MuiTypography extends StatelessWidget {
   const MuiTypography._({
     required this.text,
     super.key,
-    this.variant = .body1,
+    this.variant = Variant.body1,
     this.color,
     this.align,
     this.gutterBottom = false,
@@ -35,7 +35,7 @@ class MuiTypography extends StatelessWidget {
 
   const MuiTypography(
     String text, {
-    Variant variant = .body1,
+    Variant variant = Variant.body1,
     Color? color,
     TextAlign? align,
     bool gutterBottom = false,
@@ -43,15 +43,15 @@ class MuiTypography extends StatelessWidget {
     bool paragraph = false,
     Key? key,
   }) : this._(
-         key: key,
-         text: text,
-         variant: variant,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          key: key,
+          text: text,
+          variant: variant,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.h1(
     String text, {
@@ -62,15 +62,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.h1,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.h1,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.h2(
     String text, {
@@ -81,15 +81,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.h2,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.h2,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.h3(
     String text, {
@@ -100,15 +100,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.h3,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.h3,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.h4(
     String text, {
@@ -119,15 +119,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.h4,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.h4,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.h5(
     String text, {
@@ -138,15 +138,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.h5,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.h5,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.h6(
     String text, {
@@ -157,15 +157,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.h6,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.h6,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.subtitle1(
     String text, {
@@ -176,15 +176,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.subtitle1,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.subtitle1,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.subtitle2(
     String text, {
@@ -195,15 +195,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.subtitle2,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.subtitle2,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.body1(
     String text, {
@@ -214,15 +214,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.body1,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.body1,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.body2(
     String text, {
@@ -233,15 +233,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.body2,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.body2,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.button(
     String text, {
@@ -252,15 +252,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.button,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.button,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.caption(
     String text, {
@@ -271,15 +271,15 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.caption,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.caption,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   const MuiTypography.overline(
     String text, {
@@ -290,75 +290,75 @@ class MuiTypography extends StatelessWidget {
     bool noWrap = false,
     bool paragraph = false,
   }) : this._(
-         text: text,
-         variant: Variant.overline,
-         key: key,
-         color: color,
-         align: align,
-         gutterBottom: gutterBottom,
-         noWrap: noWrap,
-         paragraph: paragraph,
-       );
+          text: text,
+          variant: Variant.overline,
+          key: key,
+          color: color,
+          align: align,
+          gutterBottom: gutterBottom,
+          noWrap: noWrap,
+          paragraph: paragraph,
+        );
 
   TextStyle _getStyle(BuildContext context) {
     return switch (variant) {
-      .h1 => const TextStyle(
-        fontSize: 96,
-        fontWeight: FontWeight.w300,
-        letterSpacing: -1.5,
-      ),
-      .h2 => const TextStyle(
-        fontSize: 60,
-        fontWeight: FontWeight.w300,
-        letterSpacing: -0.5,
-      ),
-      .h3 => const TextStyle(fontSize: 48, fontWeight: FontWeight.w400),
-      .h4 => const TextStyle(
-        fontSize: 34,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.25,
-      ),
-      .h5 => const TextStyle(fontSize: 24, fontWeight: FontWeight.w400),
-      .h6 => const TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.w500,
-        letterSpacing: 0.15,
-      ),
-      .subtitle1 => const TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.15,
-      ),
-      .subtitle2 => const TextStyle(
-        fontSize: 14,
-        fontWeight: FontWeight.w500,
-        letterSpacing: 0.1,
-      ),
-      .body1 => const TextStyle(
-        fontSize: 16,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.5,
-      ),
-      .body2 => const TextStyle(
-        fontSize: 14,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.25,
-      ),
-      .button => const TextStyle(
-        fontSize: 14,
-        fontWeight: FontWeight.w500,
-        letterSpacing: 1.25,
-      ),
-      .caption => const TextStyle(
-        fontSize: 12,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 0.4,
-      ),
-      .overline => const TextStyle(
-        fontSize: 10,
-        fontWeight: FontWeight.w400,
-        letterSpacing: 1.5,
-      ),
+      Variant.h1 => const TextStyle(
+          fontSize: 96,
+          fontWeight: FontWeight.w300,
+          letterSpacing: -1.5,
+        ),
+      Variant.h2 => const TextStyle(
+          fontSize: 60,
+          fontWeight: FontWeight.w300,
+          letterSpacing: -0.5,
+        ),
+      Variant.h3 => const TextStyle(fontSize: 48, fontWeight: FontWeight.w400),
+      Variant.h4 => const TextStyle(
+          fontSize: 34,
+          fontWeight: FontWeight.w400,
+          letterSpacing: 0.25,
+        ),
+      Variant.h5 => const TextStyle(fontSize: 24, fontWeight: FontWeight.w400),
+      Variant.h6 => const TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.w500,
+          letterSpacing: 0.15,
+        ),
+      Variant.subtitle1 => const TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+          letterSpacing: 0.15,
+        ),
+      Variant.subtitle2 => const TextStyle(
+          fontSize: 14,
+          fontWeight: FontWeight.w500,
+          letterSpacing: 0.1,
+        ),
+      Variant.body1 => const TextStyle(
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+          letterSpacing: 0.5,
+        ),
+      Variant.body2 => const TextStyle(
+          fontSize: 14,
+          fontWeight: FontWeight.w400,
+          letterSpacing: 0.25,
+        ),
+      Variant.button => const TextStyle(
+          fontSize: 14,
+          fontWeight: FontWeight.w500,
+          letterSpacing: 1.25,
+        ),
+      Variant.caption => const TextStyle(
+          fontSize: 12,
+          fontWeight: FontWeight.w400,
+          letterSpacing: 0.4,
+        ),
+      Variant.overline => const TextStyle(
+          fontSize: 10,
+          fontWeight: FontWeight.w400,
+          letterSpacing: 1.5,
+        ),
     };
   }
 
@@ -368,14 +368,14 @@ class MuiTypography extends StatelessWidget {
     final style = _getStyle(context).copyWith(color: color);
 
     // Auto uppercase for overline (exactly like MUI)
-    final displayText = variant == .overline ? text.toUpperCase() : text;
+    final displayText = variant == Variant.overline ? text.toUpperCase() : text;
 
     // Bottom padding logic
     final bottomPadding = paragraph
         ? 16.0
         : gutterBottom
-        ? 8.0
-        : 0.0;
+            ? 8.0
+            : 0.0;
 
     final child = Text(
       displayText,

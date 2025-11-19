@@ -10,3 +10,6 @@
 
 ## 0.0.2
 - Bug Fixing
+
+## 0.0.3
+- Modify min dart sdk 3.9 to 3.0
