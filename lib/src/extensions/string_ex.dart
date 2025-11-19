@@ -28,7 +28,7 @@ extension MuiCall on String {
   }) {
     return MuiTypography(
       this,
-      variant: variant ?? .body1,
+      variant: variant ?? Variant.body1,
       color: color,
       align: align,
       gutterBottom: gutterBottom,
